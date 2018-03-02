@@ -1,0 +1,188 @@
+/* My Framework For #RESPONSIVE */
+
+.full-width {
+	width: 100%;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.3333333333%;
+}
+
+.col-2 {
+    width: 16.6666666667%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.333333333%;
+}
+
+.col-5 {
+	width: 41.666666667%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.333333333%;
+}
+
+.col-8 {
+	width: 66.666666667%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.333333333%;
+}
+
+.col-11 {
+	width: 91.666666667%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+/* My Css */
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-normal {
+	font-weight: 400;
+}
+
+.text-small {
+	font-size: 19px;
+}
+
+.text-medium {
+	font-size: 25px;
+}
+
+.text-big {
+	font-size: 35px;
+}
+
+.text-huge {
+	font-size: 60px;
+}
+
+body {
+	font-family: "Lato";
+	font-size: 15px;
+	color: #87709a;
+}
+
+.main-header {
+	border-bottom: 5px solid #87709a;
+	margin-bottom: 25px;
+	padding: 30px 0 30px 0;
+}
+
+.main-header img {
+	height: 100px;
+}
+
+.banner {
+	margin: 10px 0 18px 0;
+}
+
+.portfolio-title h2 {
+	color: #3b3458;
+}
+
+.portfolio {
+	margin: 20px 0 10px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.portfolio .item {
+	width: 32%;
+}
+ 
+.item {
+	padding: 3px;
+	padding-bottom: 30px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+	margin-bottom: 20px;
+}
+
+.item img {
+	width: 100%;
+	height: 80%;
+}
+
+.item h2 {
+	margin-bottom: 8px;
+}
+
+.item a {
+	color: #87709a;
+	border: 1px solid #87709a;
+	border-radius: 3px;
+	padding: 6px;
+	text-decoration: none;
+}
+
+/* Responsive Media */
+
+@media screen and (max-width: 800px) {
+	.portfolio .item {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	.portfolio .item {
+		width: 95%;
+		margin: 5px auto;
+	}
+}
